@@ -1,0 +1,265 @@
+.border-radius0,
+.com_easysocial .es-navbar__body,
+.com_easysocial .es-navbar__footer,
+.com_easysocial .es-login-box,
+.com_easysocial .es-login-box__form,
+.com_easysocial .es-snackbar,
+.com_easysocial .es-stream-embed,
+.com_easysocial .es-form,
+.com_easysocial .btn,
+.com_easysocial .btn-popdown,
+.com_easysocial .dropdown-menu,
+.com_easysocial .es-dialog-modal,
+.com_easysocial input[type="text"],
+.com_easysocial textarea,
+.com_easysocial select,
+.com_easysocial .es-story-files-upload,
+.com_easysocial .es-story-link-textbox,
+.com_easysocial .es-album-upload-button,
+.com_easysocial .dropdown-menu,
+.com_easysocial .es-story,
+.com_easysocial .es-dialog-header,
+.com_easysocial .es-dialog-footer,
+.com_easysocial .popbox,
+.com_easysocial .es-navbar .es-navbar__body .es-navbar__search .es-navbar__search-input,
+.com_easysocial .es-content .es-story .es-story-panel-button.active,
+.com_easysocial .es-content .es-story .es-story-panel-button:hover,
+.com_easysocial .es-profile-header__ft .o-nav__item a:hover,
+.com_easysocial .es-mini-header__ft .o-nav__item a:hover,
+.com_easysocial .es-profile .es-flyout-content .dropdown-menu,
+.com_easysocial .es-media-browser .es-album-footer .es-privacy-menu,
+.com_easysocial .es-media-browser .es-album-footer .es-comments-wrap .es-form,
+.com_easysocial .es-media-browser .view-videos select {
+  -webkit-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+.border-radius50,
+.com_easysocial .es-content .es-stream-list .es-stream-item .es-stream-avatar img,
+.com_easysocial .es-content .es-comments-wrap .es-comments .es-comment .o-media__image img {
+  -webkit-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.titleBorder,
+.com_easysocial .es-sidebar .es-side-widget .es-side-widget__title,
+.com_easysocial .t3-sidebar .t3-module .module-inner .module-title {
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+  padding-bottom: 10px;
+}
+.titleBorderBefore,
+.com_easysocial .es-sidebar .es-side-widget .es-side-widget__title::before,
+.com_easysocial .t3-sidebar .t3-module .module-inner .module-title::before {
+  content: '';
+  position: absolute;
+  background-color: #f6bf1f;
+  left: 0;
+  bottom: -1px;
+  width: 50px;
+  height: 1px;
+}
+.boxShadowDefault,
+.com_easysocial .es-content .es-story,
+.com_easysocial .es-content .es-stream-list .es-stream-item,
+.com_easysocial .es-sidebar .es-side-widget,
+.com_easysocial .es-media-browser .es-media-info,
+.com_easysocial .es-media-browser .content-hint,
+.com_easysocial .es-media-browser .es-cards__item .es-card,
+.com_easysocial .es-media-browser .es-album-footer,
+.com_easysocial .t3-sidebar .t3-module {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  -o-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  -ms-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+.boxShadowHover,
+.com_easysocial .es-content .es-stream-list .es-stream-item:hover,
+.com_easysocial .es-media-browser .es-cards__item .es-card:hover {
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24);
+  -o-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24);
+  -ms-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24);
+}
+.esTransition,
+.com_easysocial .es-content .es-stream-list .es-stream-item,
+.com_easysocial .es-profile-header__ft .o-nav__item a:hover b,
+.com_easysocial .es-mini-header__ft .o-nav__item a:hover b,
+.com_easysocial .es-media-browser .es-cards__item .es-card {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.com_easysocial .t3-mainbody .container {
+  width: 1280px;
+}
+.com_easysocial .es-frontend {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+}
+.com_easysocial .es-navbar .es-navbar__footer {
+  border-color: #e8e8e8 !important;
+}
+.com_easysocial .es-navbar .es-navbar__footer .es-navbar__footer-submenu li a {
+  font-size: 16px;
+}
+.com_easysocial .es-navbar .es-navbar__footer .es-navbar__footer-submenu li a i {
+  color: #f6bf1f !important;
+}
+.com_easysocial .es-navbar .es-navbar__footer .es-navbar__footer-submenu li:hover a {
+  color: #f6bf1f !important;
+}
+.com_easysocial .es-navbar .es-navbar__footer .es-navbar__footer-submenu li:hover a::before {
+  background-color: #f6bf1f !important;
+}
+.com_easysocial .es-navbar .es-navbar__footer .es-navbar__footer-submenu .is-active a {
+  color: #f6bf1f !important;
+}
+.com_easysocial .es-navbar .es-navbar__footer .es-navbar__footer-submenu .is-active a::before {
+  background-color: #f6bf1f !important;
+}
+.com_easysocial .es-navbar .es-navbar__body {
+  background-color: #f6bf1f !important;
+  border: 0 !important;
+}
+.com_easysocial .es-navbar .es-navbar__body .es-navbar__search {
+  background-color: transparent !important;
+}
+.com_easysocial .es-navbar .es-navbar__body .es-navbar__search .es-navbar__search-input {
+  background-color: #ffffff !important;
+}
+.com_easysocial .es-content .es-snackbar {
+  background-color: #e8e8e8 !important;
+}
+.com_easysocial .es-content .es-story {
+  border: 0 !important;
+}
+.com_easysocial .es-content .es-story .es-story-header {
+  border-bottom: 1px solid #e8e8e8;
+}
+.com_easysocial .es-content .es-story .es-story-header .es-story-panel-buttons {
+  padding: 8px 8px 0 !important;
+}
+.com_easysocial .es-content .es-story .es-story-panel-button.active,
+.com_easysocial .es-content .es-story .es-story-panel-button:hover {
+  background-color: transparent !important;
+  border-bottom: 1px solid #f6bf1f;
+}
+.com_easysocial .es-content .es-stream-list .es-stream-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-top: 0 !important;
+}
+.com_easysocial .es-content .es-stream-list .es-stream-item .es-stream-header {
+  display: none;
+}
+.com_easysocial .es-content .es-action-feedback {
+  background-color: #f9f9f9;
+  padding: 8px !important;
+}
+.com_easysocial .es-content .es-likes-wrap {
+  background-color: #f9f9f9 !important;
+  margin-top: 5px;
+}
+.com_easysocial .es-content .es-comments-wrap {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+.com_easysocial .es-content .es-comments-wrap .es-comments .es-comment {
+  margin-top: 5px;
+  margin-bottom: 5px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.com_easysocial .es-content .es-comments-wrap .es-comments .es-comment .o-media__body {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.com_easysocial .es-content .es-comments-wrap .es-comment-actions {
+  top: 5px !important;
+  right: 10px !important;
+}
+.com_easysocial .es-content .es-comments-wrap .es-comments-form {
+  padding-left: 50px !important;
+}
+.com_easysocial .es-content .es-comments-wrap .es-comments-form .es-form {
+  border: none !important;
+  background-color: #f9f9f9 !important;
+}
+.com_easysocial .es-sidebar .es-hr {
+  border-top: 0 !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+.com_easysocial .es-sidebar .es-side-widget {
+  padding: 15px;
+  background-color: #ffffff;
+}
+.com_easysocial .es-sidebar .es-side-widget .o-tabs .o-tabs__item.active a {
+  background-color: transparent !important;
+  color: #f6bf1f !important;
+  border-right: 0 !important;
+}
+.com_easysocial .es-sidebar .es-side-widget .o-tabs .o-tabs__item a:hover {
+  background-color: transparent !important;
+  color: #f6bf1f !important;
+}
+.com_easysocial .es-profile-header__ft,
+.com_easysocial .es-mini-header__ft {
+  background-color: #ffffff;
+}
+.com_easysocial .es-profile-header__ft .o-nav__item a:hover,
+.com_easysocial .es-mini-header__ft .o-nav__item a:hover {
+  color: #f6bf1f !important;
+  background-color: transparent !important;
+}
+.com_easysocial .es-profile-header__ft .o-nav__item a:hover b,
+.com_easysocial .es-mini-header__ft .o-nav__item a:hover b {
+  color: #f6bf1f !important;
+}
+.com_easysocial .es-media-browser .es-media-header .es-media-info {
+  padding: 15px;
+}
+.com_easysocial .es-media-browser .es-media-header .es-photo-info {
+  box-shadow: none !important;
+}
+.com_easysocial .es-media-browser .es-media-info {
+  margin-top: 15px;
+}
+.com_easysocial .es-media-browser .content-hint {
+  background-color: #ffffff !important;
+}
+.com_easysocial .es-media-browser .es-cards__item .es-card {
+  border: 0;
+}
+.com_easysocial .es-media-browser .es-album-footer {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.com_easysocial .es-media-browser .es-album-footer .es-album-taglist {
+  background-color: transparent !important;
+  padding-left: 15px;
+}
+.com_easysocial .es-media-browser .es-album-footer .es-comments-wrap {
+  background-color: transparent !important;
+}
+.com_easysocial .t3-sidebar .t3-module {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.com_easysocial .t3-sidebar .t3-module .module-inner .module-title {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.com_easysocial .t3-sidebar-right {
+  padding-left: 5px;
+}

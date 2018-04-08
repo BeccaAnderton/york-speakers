@@ -1,0 +1,98 @@
+.off-canvas-toggle {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  line-height: 1;
+  margin: 0px 0px 0px 0px;
+}
+.off-canvas-toggle:focus {
+  outline: none;
+}
+.off-canvas-toggle svg {
+  fill: #666666;
+}
+@media (max-width: 1200px) {
+  .off-canvas-toggle {
+    display: none;
+  }
+}
+.t3-off-canvas {
+  background: #f7f7f7;
+  color: #666666;
+}
+.t3-off-canvas .t3-off-canvas-header {
+  background: #eeeeee;
+  color: #666666;
+  padding: 0 0 0 12px;
+  height: 35px;
+}
+.t3-off-canvas .t3-off-canvas-header h2 {
+  margin: 0;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.t3-off-canvas .close {
+  margin: 0;
+  height: 22px;
+  line-height: 22px;
+  width: 22px;
+  background-color: transparent;
+  background-image: url('../../../templates/tx_morph/images/system/cancel.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 1;
+  opacity: 1;
+}
+.t3-off-canvas .t3-off-canvas-body {
+  padding: 32px 12px;
+}
+.t3-off-canvas .t3-off-canvas-body a {
+  color: #666666;
+  text-decoration: none;
+}
+.t3-off-canvas .t3-off-canvas-body a:hover,
+.t3-off-canvas .t3-off-canvas-body a:focus {
+  color: #ff9800;
+  text-decoration: none;
+}
+.t3-off-canvas .t3-off-canvas-body a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.t3-off-canvas .t3-off-canvas-body .dropdown-menu .active a {
+  background: transparent;
+}
+.t3-off-canvas .t3-off-canvas-body .t3-module {
+  margin-bottom: 24px;
+}
+.t3-off-canvas .t3-off-canvas-body .module-title {
+  margin-bottom: 12px;
+}
+.t3-off-canvas .t3-off-canvas-body .nav.menu ul {
+  list-style: none;
+}
+.t3-off-canvas .t3-off-canvas-body .nav.menu li a,
+.t3-off-canvas .t3-off-canvas-body .nav.menu li .separator {
+  font-size: 12px;
+  color: #666666;
+}
+.t3-off-canvas .t3-off-canvas-body .nav.menu li .separator {
+  padding-left: 15px;
+}
+.t3-off-canvas .t3-off-canvas-body .nav.menu li a {
+  padding: 8px 15px;
+  line-height: 1;
+  display: block;
+}
+.t3-off-canvas .t3-off-canvas-body .nav.menu li a:hover {
+  color: #ff9800;
+  background: #f5f5f5;
+}
+.t3-off-canvas .t3-off-canvas-body .nav.menu li ul {
+  padding-left: 8px;
+}

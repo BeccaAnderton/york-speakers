@@ -1,0 +1,321 @@
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: none;
+}
+.btn,
+.qx-btn {
+  font-size: 16px;
+  padding: 10px 25px;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn:focus,
+.qx-btn:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+.btn.btn-primary:hover,
+.qx-btn.btn-primary:hover,
+.btn.qx-btn-primary:hover,
+.qx-btn.qx-btn-primary:hover {
+  background: #ffa829;
+  border-color: #ffa829;
+}
+.btn.qx-btn-link,
+.qx-btn.qx-btn-link {
+  padding: 0;
+  box-shadow: none;
+  border: 0;
+}
+.btn.qx-btn-link:hover,
+.qx-btn.qx-btn-link:hover {
+  text-decoration: none;
+}
+
+.qx-btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.qx-btn-default:hover,
+.qx-btn-default:focus,
+.qx-btn-default.focus,
+.qx-btn-default:active,
+.qx-btn-default.active,
+.open > .dropdown-toggle.qx-btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.qx-btn-default:active,
+.qx-btn-default.active,
+.open > .dropdown-toggle.qx-btn-default {
+  background-image: none;
+}
+.qx-btn-default.disabled,
+.qx-btn-default[disabled],
+fieldset[disabled] .qx-btn-default,
+.qx-btn-default.disabled:hover,
+.qx-btn-default[disabled]:hover,
+fieldset[disabled] .qx-btn-default:hover,
+.qx-btn-default.disabled:focus,
+.qx-btn-default[disabled]:focus,
+fieldset[disabled] .qx-btn-default:focus,
+.qx-btn-default.disabled.focus,
+.qx-btn-default[disabled].focus,
+fieldset[disabled] .qx-btn-default.focus,
+.qx-btn-default.disabled:active,
+.qx-btn-default[disabled]:active,
+fieldset[disabled] .qx-btn-default:active,
+.qx-btn-default.disabled.active,
+.qx-btn-default[disabled].active,
+fieldset[disabled] .qx-btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.qx-btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+.qx-btn-primary {
+  color: #ffffff;
+  background-color: #ff9800;
+  border-color: #e68900;
+}
+.qx-btn-primary:hover,
+.qx-btn-primary:focus,
+.qx-btn-primary.focus,
+.qx-btn-primary:active,
+.qx-btn-primary.active,
+.open > .dropdown-toggle.qx-btn-primary {
+  color: #ffffff;
+  background-color: #cc7a00;
+  border-color: #a86400;
+}
+.qx-btn-primary:active,
+.qx-btn-primary.active,
+.open > .dropdown-toggle.qx-btn-primary {
+  background-image: none;
+}
+.qx-btn-primary.disabled,
+.qx-btn-primary[disabled],
+fieldset[disabled] .qx-btn-primary,
+.qx-btn-primary.disabled:hover,
+.qx-btn-primary[disabled]:hover,
+fieldset[disabled] .qx-btn-primary:hover,
+.qx-btn-primary.disabled:focus,
+.qx-btn-primary[disabled]:focus,
+fieldset[disabled] .qx-btn-primary:focus,
+.qx-btn-primary.disabled.focus,
+.qx-btn-primary[disabled].focus,
+fieldset[disabled] .qx-btn-primary.focus,
+.qx-btn-primary.disabled:active,
+.qx-btn-primary[disabled]:active,
+fieldset[disabled] .qx-btn-primary:active,
+.qx-btn-primary.disabled.active,
+.qx-btn-primary[disabled].active,
+fieldset[disabled] .qx-btn-primary.active {
+  background-color: #ff9800;
+  border-color: #e68900;
+}
+.qx-btn-primary .badge {
+  color: #ff9800;
+  background-color: #ffffff;
+}
+.qx-btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.qx-btn-success:hover,
+.qx-btn-success:focus,
+.qx-btn-success.focus,
+.qx-btn-success:active,
+.qx-btn-success.active,
+.open > .dropdown-toggle.qx-btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.qx-btn-success:active,
+.qx-btn-success.active,
+.open > .dropdown-toggle.qx-btn-success {
+  background-image: none;
+}
+.qx-btn-success.disabled,
+.qx-btn-success[disabled],
+fieldset[disabled] .qx-btn-success,
+.qx-btn-success.disabled:hover,
+.qx-btn-success[disabled]:hover,
+fieldset[disabled] .qx-btn-success:hover,
+.qx-btn-success.disabled:focus,
+.qx-btn-success[disabled]:focus,
+fieldset[disabled] .qx-btn-success:focus,
+.qx-btn-success.disabled.focus,
+.qx-btn-success[disabled].focus,
+fieldset[disabled] .qx-btn-success.focus,
+.qx-btn-success.disabled:active,
+.qx-btn-success[disabled]:active,
+fieldset[disabled] .qx-btn-success:active,
+.qx-btn-success.disabled.active,
+.qx-btn-success[disabled].active,
+fieldset[disabled] .qx-btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.qx-btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.qx-btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.qx-btn-info:hover,
+.qx-btn-info:focus,
+.qx-btn-info.focus,
+.qx-btn-info:active,
+.qx-btn-info.active,
+.open > .dropdown-toggle.qx-btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.qx-btn-info:active,
+.qx-btn-info.active,
+.open > .dropdown-toggle.qx-btn-info {
+  background-image: none;
+}
+.qx-btn-info.disabled,
+.qx-btn-info[disabled],
+fieldset[disabled] .qx-btn-info,
+.qx-btn-info.disabled:hover,
+.qx-btn-info[disabled]:hover,
+fieldset[disabled] .qx-btn-info:hover,
+.qx-btn-info.disabled:focus,
+.qx-btn-info[disabled]:focus,
+fieldset[disabled] .qx-btn-info:focus,
+.qx-btn-info.disabled.focus,
+.qx-btn-info[disabled].focus,
+fieldset[disabled] .qx-btn-info.focus,
+.qx-btn-info.disabled:active,
+.qx-btn-info[disabled]:active,
+fieldset[disabled] .qx-btn-info:active,
+.qx-btn-info.disabled.active,
+.qx-btn-info[disabled].active,
+fieldset[disabled] .qx-btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.qx-btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.qx-btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.qx-btn-warning:hover,
+.qx-btn-warning:focus,
+.qx-btn-warning.focus,
+.qx-btn-warning:active,
+.qx-btn-warning.active,
+.open > .dropdown-toggle.qx-btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.qx-btn-warning:active,
+.qx-btn-warning.active,
+.open > .dropdown-toggle.qx-btn-warning {
+  background-image: none;
+}
+.qx-btn-warning.disabled,
+.qx-btn-warning[disabled],
+fieldset[disabled] .qx-btn-warning,
+.qx-btn-warning.disabled:hover,
+.qx-btn-warning[disabled]:hover,
+fieldset[disabled] .qx-btn-warning:hover,
+.qx-btn-warning.disabled:focus,
+.qx-btn-warning[disabled]:focus,
+fieldset[disabled] .qx-btn-warning:focus,
+.qx-btn-warning.disabled.focus,
+.qx-btn-warning[disabled].focus,
+fieldset[disabled] .qx-btn-warning.focus,
+.qx-btn-warning.disabled:active,
+.qx-btn-warning[disabled]:active,
+fieldset[disabled] .qx-btn-warning:active,
+.qx-btn-warning.disabled.active,
+.qx-btn-warning[disabled].active,
+fieldset[disabled] .qx-btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.qx-btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.qx-btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.qx-btn-danger:hover,
+.qx-btn-danger:focus,
+.qx-btn-danger.focus,
+.qx-btn-danger:active,
+.qx-btn-danger.active,
+.open > .dropdown-toggle.qx-btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.qx-btn-danger:active,
+.qx-btn-danger.active,
+.open > .dropdown-toggle.qx-btn-danger {
+  background-image: none;
+}
+.qx-btn-danger.disabled,
+.qx-btn-danger[disabled],
+fieldset[disabled] .qx-btn-danger,
+.qx-btn-danger.disabled:hover,
+.qx-btn-danger[disabled]:hover,
+fieldset[disabled] .qx-btn-danger:hover,
+.qx-btn-danger.disabled:focus,
+.qx-btn-danger[disabled]:focus,
+fieldset[disabled] .qx-btn-danger:focus,
+.qx-btn-danger.disabled.focus,
+.qx-btn-danger[disabled].focus,
+fieldset[disabled] .qx-btn-danger.focus,
+.qx-btn-danger.disabled:active,
+.qx-btn-danger[disabled]:active,
+fieldset[disabled] .qx-btn-danger:active,
+.qx-btn-danger.disabled.active,
+.qx-btn-danger[disabled].active,
+fieldset[disabled] .qx-btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.qx-btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+.qx-btn-link {
+  color: #666666;
+}
+.qx-btn-link:hover,
+.qx-btn-link:focus {
+  color: #ff9800;
+  text-decoration: underline;
+  background-color: transparent;
+}

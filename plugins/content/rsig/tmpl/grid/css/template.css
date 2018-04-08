@@ -1,0 +1,82 @@
+/**
+ * @version		0.3
+ * @package		Responsive Simple Image Gallery
+ * @author		Karolis Martinkus https://martinkus.eu/
+ * @copyright	Copyright (c) 2016 Karolis Martinkus
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.rsig-gallery a:active, .rsig-gallery a:focus {outline:0}
+.rsig-gallery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  
+  -webkit-align-items: center;
+  align-items:         center;
+}
+.rsig-item {
+  margin: 5px;
+  width: 25%;
+  height: auto;
+  
+  color: white;
+  text-align: center;
+}
+.rsig-img{height: auto; max-width: 100%}
+.rsig-gallery figure {
+	overflow: hidden;
+	position: relative;
+}
+.rsig-gallery figure img {
+	display: block;
+}
+
+.rsig-gallery figure figcaption {
+	position: absolute;
+	font-size: 16px;
+	font-weight: 400;
+	left: auto;
+	width: 100%;
+	height: 60px;
+	bottom: -60px;
+	padding: 20px;
+	color: #ddd;
+	background: #444;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: bottom 0.2s ease;
+	-moz-transition: bottom 0.2s ease-in-out;
+	-ms-transition: bottom 0.2s ease-in-out;
+	-o-transition: bottom 0.2s ease-in-out;
+	transition: bottom 0.2s ease-in-out;
+}
+
+.rsig-gallery figure figcaption a {
+	color: #fff;
+}
+
+.rsig-gallery figure figcaption a:hover {
+	color: #ddd;
+}
+
+.rsig-gallery figure:hover figcaption {
+	bottom: 0px;
+}
