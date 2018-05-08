@@ -1,7 +1,16 @@
 .com_content.view-article .author-img {
   margin-right: 3px;
 }
-
+.com_content.view-article .article-body-text:first-letter {
+  float: left;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 8px 15px;
+  margin-right: 12px;
+  color: #ffffff;
+  background: #ff9800;
+}
 .com_content.view-article.layout_article_style_1 .t3-mainbody {
   padding-top: 0px;
 }
