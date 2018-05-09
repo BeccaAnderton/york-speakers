@@ -4,14 +4,12 @@
     <list default="true" id="e4685052-46ae-4dcf-ae17-28beacf03b34" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/administrator/cache/libquix/7d4bd97df28865e750ab47d13da25e5f-cache-libquix-873b08a397550ea7e2c9d1e0e2d6710a.php" afterPath="$PROJECT_DIR$/administrator/cache/libquix/7d4bd97df28865e750ab47d13da25e5f-cache-libquix-873b08a397550ea7e2c9d1e0e2d6710a.php" />
-      <change beforePath="$PROJECT_DIR$/administrator/logs/error.php" afterPath="$PROJECT_DIR$/administrator/logs/error.php" />
       <change beforePath="$PROJECT_DIR$/libraries/quix/app/cache/2f/5b6e6f6465735d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/libraries/quix/app/cache/2f/5b6e6f6465735d5b315d.doctrinecache.data" />
       <change beforePath="$PROJECT_DIR$/libraries/quix/app/cache/d6/5b6e6f6465735f666f6e74735f6d61705d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/libraries/quix/app/cache/d6/5b6e6f6465735f666f6e74735f6d61705d5b315d.doctrinecache.data" />
       <change beforePath="$PROJECT_DIR$/libraries/quix/app/cache/e3/5b656c656d656e74735d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/libraries/quix/app/cache/e3/5b656c656d656e74735d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/t3-assets/dev/home2/templates.tx_morph.less.article.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/home2/templates.tx_morph.less.article.less.css" />
       <change beforePath="$PROJECT_DIR$/t3-assets/dev/t3/7d4bd97df28865e750ab47d13da25e5f-cache-t3-7265d175cfd237b44ebd55d719fcc375.php" afterPath="$PROJECT_DIR$/t3-assets/dev/t3/7d4bd97df28865e750ab47d13da25e5f-cache-t3-7265d175cfd237b44ebd55d719fcc375.php" />
+      <change beforePath="$PROJECT_DIR$/t3-assets/dev/t3/7d4bd97df28865e750ab47d13da25e5f-cache-t3-debe22c516ecd93a700d01df70ea0d7d.php" afterPath="$PROJECT_DIR$/t3-assets/dev/t3/7d4bd97df28865e750ab47d13da25e5f-cache-t3-debe22c516ecd93a700d01df70ea0d7d.php" />
       <change beforePath="$PROJECT_DIR$/templates/tx_morph/css/custom.css" afterPath="$PROJECT_DIR$/templates/tx_morph/css/custom.css" />
-      <change beforePath="$PROJECT_DIR$/templates/tx_morph/images/logo.png" afterPath="$PROJECT_DIR$/templates/tx_morph/images/logo.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/tx_morph/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="42" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="568" selection-end-column="1" />
+            <state relative-caret-position="362">
+              <caret line="572" column="34" lean-forward="false" selection-start-line="572" selection-start-column="34" selection-end-line="572" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -82,6 +80,9 @@
       <find>#qx-section-21157</find>
       <find>#t3-main</find>
       <find>#t3-mainnav:after</find>
+      <find>:after</find>
+      <find>#qx-text-303873 h2</find>
+      <find>div#dp-calendar</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -657,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tx_morph/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="42" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="568" selection-end-column="1" />
+        <state relative-caret-position="362">
+          <caret line="572" column="34" lean-forward="false" selection-start-line="572" selection-start-column="34" selection-end-line="572" selection-end-column="34" />
           <folding />
         </state>
       </provider>
